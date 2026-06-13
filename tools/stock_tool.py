@@ -6,11 +6,6 @@ demergers, similarly-named subsidiaries, and multi-exchange listings.
 """
 
 import yfinance as yf
-
-try:
-    from yfinance import Search
-except ImportError:
-    from yfinance.search import Search
 from langchain_core.tools import tool
 
 
@@ -81,7 +76,7 @@ def resolve_ticker(company_name: str) -> dict:
                 "exchange": "NSI" if symbol.endswith(".NS") else "BSE",
             }
 
-    search_result = Search(company_name, max_results=10)
+    search_result = yf.Search(company_name, max_results=10)
     quotes = search_result.quotes
 
     if not quotes:

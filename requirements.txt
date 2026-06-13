@@ -3,7 +3,7 @@ langchain-core==0.3.79
 langchain-groq==0.3.8
 langchain-community==0.3.27
 langchain-huggingface==0.1.2
-yfinance==0.2.50
+yfinance>=0.2.55
 newsapi-python==0.2.7
 faiss-cpu==1.9.0
 transformers==4.46.3
