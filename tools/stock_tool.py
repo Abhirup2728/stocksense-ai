@@ -6,7 +6,11 @@ demergers, similarly-named subsidiaries, and multi-exchange listings.
 """
 
 import yfinance as yf
-from yfinance import Search
+
+try:
+    from yfinance import Search
+except ImportError:
+    from yfinance.search import Search
 from langchain_core.tools import tool
 
 
