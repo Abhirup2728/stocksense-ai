@@ -2,7 +2,7 @@
 
 An AI agent that performs end-to-end equity research on any NSE/BSE-listed Indian company. Give it a company name, and it autonomously fetches live financial data, analyzes recent news sentiment, retrieves contextually relevant articles via semantic search, and generates a structured analyst-style report — in under 30 seconds.
 
-**🔗 Live Demo:** [stocksense-ai.streamlit.app](https://stocksense-ai.streamlit.app) *(coming soon)*
+**🔗 Live Demo:** [stocksense-ai.streamlit.app](https://stocksense-ai-abhirup.streamlit.app/)
 
 ---
 
